@@ -48,6 +48,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="Docs\TaxCalculator.pdf" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CalculateNetSalary.Core\CalculateNetSalary.Core.csproj">
@@ -55,5 +56,6 @@
       <Name>CalculateNetSalary.Core</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
